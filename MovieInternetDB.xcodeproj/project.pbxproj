@@ -16,8 +16,6 @@
 		A237802C1EBBC4F1007C73FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A237802A1EBBC4F1007C73FC /* LaunchScreen.storyboard */; };
 		A23780371EBBC4F1007C73FC /* MovieInternetDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23780361EBBC4F1007C73FC /* MovieInternetDBTests.swift */; };
 		A23780421EBBC4F1007C73FC /* MovieInternetDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23780411EBBC4F1007C73FC /* MovieInternetDBUITests.swift */; };
-		A23780501EBBCFB7007C73FC /* ModalJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A237804F1EBBCFB7007C73FC /* ModalJSON.swift */; };
-		A23780521EBBD7FF007C73FC /* JSONTMDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23780511EBBD7FF007C73FC /* JSONTMDb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +51,6 @@
 		A237803D1EBBC4F1007C73FC /* MovieInternetDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieInternetDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23780411EBBC4F1007C73FC /* MovieInternetDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInternetDBUITests.swift; sourceTree = "<group>"; };
 		A23780431EBBC4F1007C73FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A237804F1EBBCFB7007C73FC /* ModalJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalJSON.swift; sourceTree = "<group>"; };
-		A23780511EBBD7FF007C73FC /* JSONTMDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTMDb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +104,6 @@
 				A23780211EBBC4F1007C73FC /* AppDelegate.swift */,
 				A23780251EBBC4F1007C73FC /* Main.storyboard */,
 				A23780541EBBDD65007C73FC /* View Controllers */,
-				A23780531EBBDCFC007C73FC /* Model Class */,
 				A23780281EBBC4F1007C73FC /* Assets.xcassets */,
 				A237802A1EBBC4F1007C73FC /* LaunchScreen.storyboard */,
 				A237802D1EBBC4F1007C73FC /* Info.plist */,
@@ -132,15 +127,6 @@
 				A23780431EBBC4F1007C73FC /* Info.plist */,
 			);
 			path = MovieInternetDBUITests;
-			sourceTree = "<group>";
-		};
-		A23780531EBBDCFC007C73FC /* Model Class */ = {
-			isa = PBXGroup;
-			children = (
-				A237804F1EBBCFB7007C73FC /* ModalJSON.swift */,
-				A23780511EBBD7FF007C73FC /* JSONTMDb.swift */,
-			);
-			name = "Model Class";
 			sourceTree = "<group>";
 		};
 		A23780541EBBDD65007C73FC /* View Controllers */ = {
@@ -290,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A23780501EBBCFB7007C73FC /* ModalJSON.swift in Sources */,
-				A23780521EBBD7FF007C73FC /* JSONTMDb.swift in Sources */,
 				A21E88721EBC08EA00ADA36F /* DetailsViewController.swift in Sources */,
 				A23780221EBBC4F1007C73FC /* AppDelegate.swift in Sources */,
 				A21E88701EBC04D400ADA36F /* TableViewCell.swift in Sources */,
